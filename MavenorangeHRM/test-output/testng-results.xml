@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[editorganisation]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20297" started-at="2021-02-17T15:55:43 IST" finished-at="2021-02-17T15:56:03 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20297" started-at="2021-02-17T15:55:43 IST" finished-at="2021-02-17T15:56:03 IST">
+      <class name="com.orangehrm.testscript.organisationmodule">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.orangehrm.testscript.organisationmodule@1786dec2]" name="openBrowser" is-config="true" duration-ms="5105" started-at="2021-02-17T15:55:43 IST" finished-at="2021-02-17T15:55:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.orangehrm.testscript.organisationmodule@1786dec2]" name="login" is-config="true" duration-ms="10498" started-at="2021-02-17T15:55:48 IST" finished-at="2021-02-17T15:55:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testeditorganisation()[pri:0, instance:com.orangehrm.testscript.organisationmodule@1786dec2]" name="testeditorganisation" duration-ms="3119" started-at="2021-02-17T15:55:59 IST" finished-at="2021-02-17T15:56:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[editorganisation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testeditorganisation -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.orangehrm.testscript.organisationmodule@1786dec2]" name="logout" is-config="true" duration-ms="1413" started-at="2021-02-17T15:56:02 IST" finished-at="2021-02-17T15:56:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.orangehrm.testscript.organisationmodule@1786dec2]" name="closebrowser" is-config="true" duration-ms="74" started-at="2021-02-17T15:56:03 IST" finished-at="2021-02-17T15:56:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.orangehrm.testscript.organisationmodule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
