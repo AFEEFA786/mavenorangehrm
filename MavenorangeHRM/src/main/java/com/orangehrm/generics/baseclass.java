@@ -3,6 +3,7 @@ package com.orangehrm.generics;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -24,7 +25,8 @@ public class baseclass {
 	@BeforeClass
 	public void openBrowser() {
 		driver =new ChromeDriver();
-		driver.manage().window().maximize();
+		Dimension dim=new Dimension(100,500);
+		driver.manage().window().setSize(dim);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		w.waitforelementingui(driver);
 	}

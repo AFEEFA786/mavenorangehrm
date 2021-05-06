@@ -24,11 +24,6 @@ public class filelib {
 		String value=wb.getSheet(sheetname).getRow(row).getCell(cell).getStringCellValue();
 		return value;
 		
-		
-		
-		
-		
-		
 	}
 
 }

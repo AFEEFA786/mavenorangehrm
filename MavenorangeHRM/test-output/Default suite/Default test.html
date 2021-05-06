@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 15 16:18:49 IST 2021</td>
+<td>Started on:</td><td>Fri May 07 01:34:36 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19920 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18397 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -83,7 +83,10 @@ function toggleAllBoxes() {
 kpiforjobtitle<br/>
 </div>
 </td>
-<td><div><pre>java.lang.NullPointerException
+<td><div><pre>java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:347)
 	at com.orangehrm.generics.filelib.getExcelValue(filelib.java:24)
 	at com.orangehrm.testscript.kpimodule.testeditorganisation(kpimodule.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -115,7 +118,10 @@ kpiforjobtitle<br/>
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace20111564", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace20111564'><pre>java.lang.NullPointerException
+<div class='stack-trace' id='stack-trace20111564'><pre>java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:347)
 	at com.orangehrm.generics.filelib.getExcelValue(filelib.java:24)
 	at com.orangehrm.testscript.kpimodule.testeditorganisation(kpimodule.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

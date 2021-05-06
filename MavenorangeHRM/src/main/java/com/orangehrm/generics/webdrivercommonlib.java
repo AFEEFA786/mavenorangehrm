@@ -1,4 +1,4 @@
-package com.orangehrm.generics;
+	package com.orangehrm.generics;
 
 import java.util.concurrent.TimeUnit;
 
@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public class webdrivercommonlib {
 	
-	/**
+	/**				
 	 * 
 	 * @param driver
 	 */
@@ -38,7 +38,7 @@ public class webdrivercommonlib {
 	
 public void waitElementVisibility(WebDriver driver,WebElement Element) {
 	WebDriverWait wait=new WebDriverWait(driver,10);
-	wait.until(ExpectedConditions.visibilityOf(Element));
+	wait.until(ExpectedConditions.titleIs(""));
 	
 	
 	

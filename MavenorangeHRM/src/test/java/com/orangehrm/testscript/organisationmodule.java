@@ -14,6 +14,7 @@ import com.orangehrm.pom.adminclass;
 import com.orangehrm.pom.homepage;
 
 public class organisationmodule extends baseclass{
+	
 	@Test
 	public void testeditorganisation() throws InterruptedException, EncryptedDocumentException, IOException, InvalidFormatException {
 		Reporter.log("editorganisation",true);
